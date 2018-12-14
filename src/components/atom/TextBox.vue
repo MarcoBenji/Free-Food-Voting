@@ -7,9 +7,11 @@
 <script>
     export default {
         name: 'TextBox',
-        content: {
-            type: String,
-            required: true
+        props: {
+            content: {
+                type: String,
+                required: true
+            }
         }
     }
 </script>
